@@ -9,7 +9,7 @@ class car:
         self.speed=a
         return
 
-speed=property(get_speed, set_speed)
+speed=property(get_speed, set_speed)   #property method
 
 c1=car()
 c1.get_speed()
