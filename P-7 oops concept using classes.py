@@ -13,6 +13,7 @@ class Person:
 p = Person() #creating object
 p.showinfo()
 
+
 #INHERITANCE
 class Animal:
     def __init__(self, name):
