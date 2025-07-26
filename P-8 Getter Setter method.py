@@ -9,6 +9,8 @@ class car:
         self.speed=a
         return
 
+speed=property(get_speed, set_speed)
+
 c1=car()
 c1.get_speed()
 c1.set_speed(20)
